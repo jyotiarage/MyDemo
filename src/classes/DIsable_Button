@@ -1,0 +1,7 @@
+<apex:actionStatus id="mySaveStatus1">
+<apex:facet name="stop">
+<apex:commandButton action="{!youmethod}" status="mySaveStatus1" value="Save" disabled="false" rerender="mySaveStatus"/>
+</apex:facet>
+<apex:facet name="start">
+<apex:commandButton action="{!youmethod}" status="mySaveStatus1" value="Processing..." disabled="true"/> </apex:facet>
+</apex:actionStatus>
